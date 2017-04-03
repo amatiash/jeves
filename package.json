@@ -1,0 +1,25 @@
+{
+  "name": "jeves",
+  "version": "1.0.0",
+  "description": "jQuery PubSub",
+  "main": "jeves.js",
+  "keywords": [
+    "pubsub",
+    "jquery",
+    "events",
+    "eve",
+    "publish",
+    "subscrive",
+    "jquery-plugin"
+  ],
+  "author": "Anton Matiashevich <a.matiashevich@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amatiash/jeves.git"
+  },
+  "github": "https://github.com/amatiash/jeves",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.7"
+  }
+}
