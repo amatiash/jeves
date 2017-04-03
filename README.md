@@ -24,7 +24,7 @@ JEves.off('.question');
 ```javascript
 const localJEves = new JEves();
 localJEves.on('crash', () => typeof typeof void 42 !== new Error(0));
-JEves.trigger('crash');
+localJEves.trigger('crash');
 ```
 
 ### For your plugin's API
