@@ -57,7 +57,7 @@
     };
 
     JEves.trigger = function(){
-        globalJEves.one.trigger(globalJEves, arguments);
+        globalJEves.trigger.apply(globalJEves, arguments);
     };
 
     // ----------------------------------------------------
